@@ -4,8 +4,20 @@ from fizz_buzz.fizz_buzz import is_fizz_or_buzz
 
 class FizzBuzzTest(unittest.TestCase):
 
-    def test_give_neg1_return_nothing(self):
-        num = -1
+    def test_give_neg15_return_nothing(self):
+        num = -15
+        result = is_fizz_or_buzz(num)
+        expect = ''
+        self.assertEqual(result, expect)
+    
+    def test_give_neg3_return_nothing(self):
+        num = -3
+        result = is_fizz_or_buzz(num)
+        expect = ''
+        self.assertEqual(result, expect)
+    
+    def test_give_neg5_return_nothing(self):
+        num = -5
         result = is_fizz_or_buzz(num)
         expect = ''
         self.assertEqual(result, expect)
@@ -46,8 +58,14 @@ class FizzBuzzTest(unittest.TestCase):
         expect = 'FizzBuzz'
         self.assertEqual(result, expect)
     
-    def test_give_450_return_fizzbuzz(self):
-        num = 450
+    def test_give_255_return_fizzbuzz(self):
+        num = 255
+        result = is_fizz_or_buzz(num)
+        expect = 'FizzBuzz'
+        self.assertEqual(result, expect)
+
+    def test_give_750_return_fizzbuzz(self):
+        num = 750
         result = is_fizz_or_buzz(num)
         expect = 'FizzBuzz'
         self.assertEqual(result, expect)
@@ -70,3 +88,20 @@ class FizzBuzzTest(unittest.TestCase):
         expect = ''
         self.assertEqual(result, expect)
     
+    def test_give_1002_return_nothing(self):
+        num = 1002
+        result = is_fizz_or_buzz(num)
+        expect = ''
+        self.assertEqual(result, expect)
+    
+    def test_give_1005_return_nothing(self):
+        num = 1002
+        result = is_fizz_or_buzz(num)
+        expect = ''
+        self.assertEqual(result, expect)
+
+    def test_give_1010_return_nothing(self):
+        num = 1010
+        result = is_fizz_or_buzz(num)
+        expect = ''
+        self.assertEqual(result, expect)
