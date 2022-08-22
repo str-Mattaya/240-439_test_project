@@ -1,6 +1,7 @@
 import unittest
 from sample.staircase import gen_staircase
 
+
 class TestStaircase(unittest.TestCase):
     def test_give_n_neg1_display_hash_return_nothing(self):
         n = -1 ; display = '#'
