@@ -1,5 +1,5 @@
 import unittest
-from fizz_buzz.fizz_buzz import *
+from src.fizz_buzz import *
 
 
 class FizzBuzzTest(unittest.TestCase):

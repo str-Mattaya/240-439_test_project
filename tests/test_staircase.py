@@ -1,5 +1,5 @@
 import unittest
-from staircase.staircase import *
+from src.staircase import *
 
 
 class TestStaircase(unittest.TestCase):

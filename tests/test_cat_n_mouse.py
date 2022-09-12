@@ -1,5 +1,5 @@
 import unittest
-from cat_n_mouse.cat_n_mouse import *
+from src.cat_n_mouse import *
 
 
 class TestCatAndMouse(unittest.TestCase):

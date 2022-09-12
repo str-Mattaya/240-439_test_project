@@ -1,5 +1,5 @@
 import unittest
-from number_utils.number_utils import *
+from src.number_utils import *
 
 
 class PrimeListTest(unittest.TestCase):

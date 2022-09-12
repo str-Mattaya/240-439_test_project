@@ -38,8 +38,4 @@ jobs:
     - name: Testing Codes
       run: |
         pip install nose2 coverage
-        for d in */ ; do
-          cd "$d"
-          nose2 -v --with-coverage
-          cd ..
-        done
+        nose2 -v --with-coverage
