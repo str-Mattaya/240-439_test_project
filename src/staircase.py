@@ -9,4 +9,4 @@ def gen_staircase(n: int, display: str):
     return staircase
 
 
-print(gen_staircase(5, '*'))
+# print(gen_staircase(5, '*'))
