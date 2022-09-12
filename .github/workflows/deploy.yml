@@ -40,4 +40,4 @@ jobs:
     - name: Testing Codes
       run: |
         pip install nose2 coverage
-        nose2 -v with-coverage
+        nose2 -v --with-coverage
