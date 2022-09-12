@@ -40,6 +40,6 @@ jobs:
         pip install nose2 coverage
         for d in */ ; do
           cd "$d"
-          nose2 -v with-coverage
+          nose2 -v --with-coverage
           cd ..
         done
