@@ -17,7 +17,7 @@ class TestCaesarCipher(unittest.TestCase):
         result = caesar_cipher(text, step)
         self.assertEqual(expect, result)
     
-    def test_give_abcdefghijklmnopqrstuvwxyz_step_neg1_return_zabcdefghijklmnopqrstuvwxy(self):
+    def test_give_abcdefghijklmnopqrstuvwxyz_step_n1_return_zabcdefghijklmnopqrstuvwxy(self):
         text = 'abcdefghijklmnopqrstuvwxyz' ; step = -1
         expect = 'zabcdefghijklmnopqrstuvwxy'
         result = caesar_cipher(text, step)
