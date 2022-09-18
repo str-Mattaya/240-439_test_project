@@ -1,0 +1,34 @@
+test_give_10000_return_buzzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_1215_return_fizzfizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_1338_return_fizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_135_return_fizzfizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_15_return_fizzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_1_return_nofizzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_225_return_fizzfizzbuzzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_2_return_nofizzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_3375_return_fizzfizzbuzzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_3_return_fizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_4460_return_buzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_45_return_fizzfizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_5000_return_buzzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_5_return_buzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_6075_return_fizzfizzbuzzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_6690_return_fizzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_6_return_fizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_75_return_buzzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_8920_return_buzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_9195_return_fizzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_9366_return_fizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_9998_return_nofizzbuzz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+test_give_9999_return_fizzfizz (tests.test_super_fizzbuzz.TestSuperFizzBuzz) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.009s
+
+OK
+Name                    Stmts   Miss  Cover
+-------------------------------------------
+src\super_fizzbuzz.py      46      0   100%
+-------------------------------------------
+TOTAL                      46      0   100%
+
